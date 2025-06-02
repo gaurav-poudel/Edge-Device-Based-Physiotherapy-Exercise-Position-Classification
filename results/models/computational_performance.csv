@@ -1,0 +1,4 @@
+Algorithm,Training Time (s),Inference Time (ms),Throughput (FPS),Model Size (MB),Memory Usage,Suitable for Real-time
+SVM,5.07,0.02,59410.2,0.31,Medium,Yes
+KNN,0.48,0.01,71209.4,1.81,Low,Yes
+Random Forest,41.68,0.03,29521.3,2.93,Medium,Yes

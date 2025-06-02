@@ -1,0 +1,66 @@
+
+PHYSIOTHERAPY POSITION CLASSIFICATION - MODEL TRAINING SUMMARY
+=============================================================
+
+Dataset Information:
+- Total samples: 2577
+- Training samples: 2061
+- Test samples: 516
+- Number of classes: 3
+- Classes: Sitting, Standing, Unknown
+- Features: 114 PCA components (95% variance retained)
+
+Model Performance Summary:
+-------------------------
+Best Model: SVM
+Test Accuracy: 1.0000
+Cohen's Kappa: 1.0000
+
+Detailed Results:
+
+SVM:
+- Best Parameters: {'C': 10.0, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True}
+- CV Accuracy: 0.9981 ± 0.0018
+- Test Accuracy: 1.0000
+- Precision: 1.0000
+- Recall: 1.0000
+- F1-Score: 1.0000
+- Cohen's Kappa: 1.0000
+- Training Time: 5.07s
+- Inference Speed: 59410.2 FPS
+
+KNN:
+- Best Parameters: {'metric': 'euclidean', 'n_neighbors': 3, 'weights': 'uniform'}
+- CV Accuracy: 0.9971 ± 0.0028
+- Test Accuracy: 1.0000
+- Precision: 1.0000
+- Recall: 1.0000
+- F1-Score: 1.0000
+- Cohen's Kappa: 1.0000
+- Training Time: 0.48s
+- Inference Speed: 71209.4 FPS
+
+Random Forest:
+- Best Parameters: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 200}
+- CV Accuracy: 0.9704 ± 0.0064
+- Test Accuracy: 0.9767
+- Precision: 0.9770
+- Recall: 0.9767
+- F1-Score: 0.9752
+- Cohen's Kappa: 0.9547
+- Training Time: 41.68s
+- Inference Speed: 29521.3 FPS
+
+Edge Deployment Recommendation:
+------------------------------
+Recommended Model: KNN
+Reason: Best balance of accuracy and inference speed
+
+Files Generated:
+- model_comparison_results.csv
+- computational_performance.csv
+- feature_importances.csv
+- figure_7_cv_performance_comparison.png
+- figure_8_confusion_matrices.png
+- figure_9_feature_importance.png
+- Trained model files (.pkl)
