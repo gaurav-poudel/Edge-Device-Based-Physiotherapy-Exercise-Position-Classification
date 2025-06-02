@@ -1,0 +1,13 @@
+PREPROCESSING SUMMARY
+==================================================
+
+total_samples: 2577
+train_samples: 2061
+test_samples: 516
+features_per_sample: 7500
+sequence_length: 100
+features_per_frame: 75
+num_positions: 3
+num_gestures: 9
+position_classes: ['Sitting', 'Standing', 'Unknown']
+gesture_classes: [0, 1, 2, 3, 4, 5, 6, 7, 8]

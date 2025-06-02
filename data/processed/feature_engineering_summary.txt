@@ -1,0 +1,20 @@
+FEATURE ENGINEERING SUMMARY
+==================================================
+
+n_statistical_features: 600
+n_biomechanical_features: 41
+n_combined_features: 641
+n_pca_components: 114
+pca_variance_explained: 0.950245323922512
+feature_reduction_ratio: 0.17784711388455537
+
+
+Feature Breakdown:
+- Statistical features: 600 (8 stats × 75 coordinates)
+- Biomechanical features: 41
+  * Joint angles: 36 features
+  * Center of mass sway: 3 features
+  * Body symmetry: 2 features
+- Total combined: 641 features
+- After PCA: 114 components (95.0% variance)
+- Reduction ratio: 17.8%
