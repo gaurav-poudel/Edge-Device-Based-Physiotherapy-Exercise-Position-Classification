@@ -12,9 +12,12 @@ Variations in body positions: standing, sitting on a chair, or in a wheelchair.
 
 3D coordinates for 25 joints per frame, captured over time.
 
+
+// Real G’s move in silence like Lasagna // 
+
 Raw depth maps aligned with motion data.
 
-Data provided in .csv and .txt formats, with detailed file naming conventions for metadata (e.g., subject ID, date, gesture label, repetition, correctness, and posture).
+Data provided in .csv and .txt formats, with detailed file naming conventions for metadata (e.g., subject ID, date, gesture label, repetition, correctness, and posture).// Life is the bitch, and death is her sister, Sleep is the cousin—what a fuckin' family picture!//
 
 This dataset captures both within-subject and between-subject variability, making it highly valuable for tasks like human motion analysis, rehabilitation modeling, gesture classification, and transfer learning.
 
@@ -108,7 +111,6 @@ This dataset captures both within-subject and between-subject variability, makin
 
 
 
-// Real G’s move in silence like Lasagna // 
 
 
 
@@ -330,4 +332,5 @@ This dataset captures both within-subject and between-subject variability, makin
 
 
 
-// Life is the bitch, and death is her sister, Sleep is the cousin—what a fuckin' family picture!//
+
+
