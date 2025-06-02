@@ -1,0 +1,10 @@
+Combination,Algorithm,Feature_Set,N_Features,Test_Accuracy,Test_Precision,Test_Recall,Test_F1,Test_AUC,CV_Score,Training_Time,Model_Size_MB,Val_Accuracy
+RandomForest_all_features,RandomForest,all_features,75,1.0,1.0,1.0,1.0,1.0,1.0,22.94735050201416,0.45245361328125,1.0
+RandomForest_selected_features,RandomForest,selected_features,25,1.0,1.0,1.0,1.0,1.0,1.0,16.638273239135742,0.3776054382324219,1.0
+RandomForest_pca_features,RandomForest,pca_features,15,1.0,1.0,1.0,1.0,1.0,1.0,12.386873483657837,0.4438591003417969,1.0
+SVM_all_features,SVM,all_features,75,1.0,1.0,1.0,1.0,1.0,1.0,0.8253028392791748,0.26422882080078125,1.0
+SVM_selected_features,SVM,selected_features,25,1.0,1.0,1.0,1.0,1.0,1.0,0.2257401943206787,0.03265857696533203,1.0
+SVM_pca_features,SVM,pca_features,15,1.0,1.0,1.0,1.0,1.0,1.0,0.30950498580932617,0.02914714813232422,1.0
+KNN_all_features,KNN,all_features,75,1.0,1.0,1.0,1.0,1.0,1.0,0.4617583751678467,0.9294624328613281,1.0
+KNN_selected_features,KNN,selected_features,25,1.0,1.0,1.0,1.0,1.0,1.0,0.21119165420532227,0.3184375762939453,1.0
+KNN_pca_features,KNN,pca_features,15,1.0,1.0,1.0,1.0,1.0,1.0,0.2854626178741455,0.22515392303466797,1.0

@@ -1,0 +1,37 @@
+JETSON NANO DEPLOYMENT INSTRUCTIONS
+==================================================
+
+BEST MODEL SELECTED:
+- Algorithm: RandomForest
+- Feature Set: all_features
+- Features Required: 75
+- Test Accuracy: 1.0000
+- Model Size: 0.45 MB
+
+FILES FOR DEPLOYMENT:
+1. best_model.pkl - Trained model (load with pickle)
+2. required_features.txt - Input feature requirements
+3. model_metadata.pkl - Model information
+
+JETSON NANO INFERENCE CODE:
+```python
+import pickle
+import numpy as np
+
+# Load model
+with open('best_model.pkl', 'rb') as f:
+    model = pickle.load(f)
+
+# Load metadata
+with open('model_metadata.pkl', 'rb') as f:
+    metadata = pickle.load(f)
+
+# For prediction:
+# prediction = model.predict(input_features)
+# 0 = sitting, 1 = standing
+```
+
+DEPLOYMENT OPTIMIZATION:
+- Model is optimized for all_features
+- Inference should be very fast on Jetson Nano
+- Memory footprint: 0.45 MB
